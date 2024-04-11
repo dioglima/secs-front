@@ -1,0 +1,74 @@
+body {
+  background-color: var(--main-green);
+}
+
+body main {
+  background-color: var(--white);
+  width: 368px;
+  height: 368px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+body main .logo-poupe-mais {
+  width: 107px;
+  height: 32px;
+}
+
+body main h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--gray-text);
+}
+
+body main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+body main form .input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+body .input {
+  background-color: var(--mint);
+  border: none;
+  width: 242px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+body .input::placeholder {
+  color: var(--gray-text);
+  padding-left: 10px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+body button {
+  background-color: var(--secondary-green);
+  border: none;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 16px;
+
+  width: 178px;
+  height: 44px;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
